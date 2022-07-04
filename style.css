@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Nunito+Sans:ital,wght@1,200&display=swap');
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    background-color:gray;
+}
+.container{
+    background-color: gray;
+    margin-top: 40px; 
+    width: 100vw;
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Merriweather', serif;
+}  
+.div1{
+    background-color: blueviolet;
+    width: 90vw;
+    height: 50vh;
+    border: 2px solid white;
+    font-size: 5em;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.div1 p{
+    position: absolute;
+}
+.div2{
+    background-color: rgb(248, 61, 248);
+    width: 90vw;
+    height: 50vh;
+    border: 2px solid white;
+    font-size: 0.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.div2 p{
+    font-size: 2em;
+}
+.div3{
+    background-color: pink;
+    width: 90vw;
+    height: 50vh;
+    border: 2px solid white;
+    font-size: 0.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.div3 p{
+    font-size: 2em;
+}
+.div4{
+    background-color: plum;
+    width: 90vw;
+    height: 50vh;
+    border: 2px solid white;
+    font-size: 0.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.div4 p{
+    font-size: 2em;
+}
+.img1{
+    width: 90vw;
+    height: 50vh;
+}
+.img2{
+    width: 35vw;
+    height: 30vh;
+    border: 3px;
+    border: solid white;
+    padding: 6px;
+
+}
+.img3{
+    width: 35vw;
+    height: 30vh;
+    border: 3px;
+    border: solid white;
+    padding: 6px;
+}
+    
+.img4{
+    width: 35vw;
+    height: 30vh;
+    border: 3px;
+    border: solid white;
+    padding: 6px;
+}
